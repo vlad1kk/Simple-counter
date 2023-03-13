@@ -12,7 +12,7 @@ h1{
 .couter-nmb {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-size: 25px;
 }
 .buttons{
@@ -106,6 +106,7 @@ h1{
 	box-sizing: border-box;
 	padding: 1px;
 	margin: 0 15px 15px 0;
+    margin-right: 0px;
 	outline: none;
 	border: 1px solid rgb(187, 0, 0);
 	border-radius: 25px;
@@ -140,5 +141,39 @@ h1{
     &:hover span {
         background-color: red;
         color: black;
+    }
+}
+@media (max-width:320px){
+    .inc-btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .dec-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .clr-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:375px){
+    .inc-btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .dec-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .clr-btn{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
     }
 }
